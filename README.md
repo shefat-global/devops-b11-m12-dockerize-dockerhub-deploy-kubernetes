@@ -108,8 +108,8 @@ Docker Hub repository:
 
 https://hub.docker.com/r/shiftrobin/module12-app
 
-![Docker Hub Push](screenshots/72_deployment_step_72)
-![Docker Hub Push](screenshots/73_deployment_step_73)
+![Docker Hub Push](screenshots/72_deployment_step_72.png)
+![Docker Hub Push](screenshots/73_deployment_step_73.png)
 
 ------------------------------------------------------------------------
 
@@ -129,7 +129,7 @@ Security group ports configured:
   30080         Application NodePort
   30000-32767   Kubernetes NodePort Range
 
-![EC2 Setup](screenshots/80_deployment_step_80)
+![EC2 Setup](screenshots/80_deployment_step_80.png)
 
 ------------------------------------------------------------------------
 
@@ -198,7 +198,7 @@ Verification:
 kubectl get pods -n production
 ```
 
-![Running Pods](screenshots/86_deployment_step_86)
+![Running Pods](screenshots/86_deployment_step_86.png)
 
 ------------------------------------------------------------------------
 
@@ -246,7 +246,7 @@ Response:
 }
 ```
 
-![Application Running](screenshots/92_deployment_step_92)
+![Application Running](screenshots/92_deployment_step_92.png)
 
 ------------------------------------------------------------------------
 
