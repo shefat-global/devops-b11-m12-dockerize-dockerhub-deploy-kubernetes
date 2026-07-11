@@ -86,7 +86,7 @@ Docker image verification:
 docker images
 ```
 
-![Docker Image Build](screenshots/08_deployment_step_68.png)
+![Docker Image Build](screenshots/68_deployment_step_68.png)
 
 ------------------------------------------------------------------------
 
@@ -108,7 +108,7 @@ Docker Hub repository:
 
 https://hub.docker.com/r/shiftrobin/module12-app
 
-![Docker Hub Push](screenshots/12_deployment_step_72.png)
+![Docker Hub Push](screenshots/68_deployment_step_68.png)
 
 ------------------------------------------------------------------------
 
@@ -128,7 +128,7 @@ Security group ports configured:
   30080         Application NodePort
   30000-32767   Kubernetes NodePort Range
 
-![EC2 Setup](screenshots/20_deployment_step_80.png)
+![EC2 Setup](screenshots/80_deployment_step_80)
 
 ------------------------------------------------------------------------
 
@@ -197,7 +197,7 @@ Verification:
 kubectl get pods -n production
 ```
 
-![Running Pods](screenshots/24_deployment_step_86.png)
+![Running Pods](screenshots/86_deployment_step_86)
 
 ------------------------------------------------------------------------
 
@@ -245,7 +245,7 @@ Response:
 }
 ```
 
-![Application Running](screenshots/26_deployment_step_92.png)
+![Application Running](screenshots/92_deployment_step_92)
 
 ------------------------------------------------------------------------
 
