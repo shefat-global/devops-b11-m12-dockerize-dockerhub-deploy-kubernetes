@@ -246,8 +246,8 @@ Response:
 }
 ```
 
+![Application Running](screenshots/91_deployment_step_91.png)
 ![Application Running](screenshots/92_deployment_step_92.png)
-
 ------------------------------------------------------------------------
 
 # Kubernetes Deployment Structure
