@@ -108,7 +108,8 @@ Docker Hub repository:
 
 https://hub.docker.com/r/shiftrobin/module12-app
 
-![Docker Hub Push](screenshots/68_deployment_step_68.png)
+![Docker Hub Push](screenshots/72_deployment_step_72)
+![Docker Hub Push](screenshots/73_deployment_step_73)
 
 ------------------------------------------------------------------------
 
