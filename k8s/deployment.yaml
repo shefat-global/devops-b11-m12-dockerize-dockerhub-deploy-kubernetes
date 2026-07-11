@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: module12-app
+  namespace: production
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: module12-app
+
+  template:
+    metadata:
+      labels:
+        app: module12-app
+
+    spec:
+      containers:
+      - name: module12-container
+        image: shiftrobin/module12-app:v1
+
+        ports:
+        - containerPort: 5000
